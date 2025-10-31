@@ -1,0 +1,8 @@
+#!/bin/bash
+if(($EUID !=0 ));
+then
+    echo "connection interrupted"
+else
+    echo "我願意!"
+    echo "我對你的愛是超越gamma射線的存在!"
+fi
